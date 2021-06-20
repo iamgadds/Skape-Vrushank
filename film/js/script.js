@@ -333,6 +333,14 @@ $('.home-banner').mousemove(function(e) {
         lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
     });
 
+
+    $('#standaloneImages').cubeportfolio({
+        lightboxDelegate: '.cbp-lightbox',
+        lightboxGallery: true,
+        // lightboxTitleSrc: 'data-title',
+        // lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+    })
+
     //to redirect to a different page
 
 

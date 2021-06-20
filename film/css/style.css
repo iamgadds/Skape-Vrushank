@@ -743,6 +743,8 @@ header a.logo img {
 .production-sec{}
 .production-sec .production-box{
     padding: 15px;
+    padding-top: 8px;
+    margin-top: 2px;
 }
 
 .production-sec .production-box i{
@@ -822,7 +824,7 @@ padding-top: 0;
    list item
 ====================================== */
 .latest-items{
-    padding-bottom: 120px;
+    padding-bottom: 30px;
 }
 .latest-items .list-item-slider .item{
     position:relative ;
@@ -911,7 +913,7 @@ padding-top: 0;
 .portfolio-sec{
     padding-top: 120px;
     background-color: #f9f9f9;
-    padding-bottom: 120px;
+    padding-bottom: 40px;
 }
 .portfolio-heading .heading-details{
     margin-bottom: 50px;
@@ -1195,7 +1197,6 @@ padding-top: 0;
 }
 .brand-sec .sponser-tags{
     padding-bottom: 120px;
-    border-bottom: dashed 2px #e1e1e1;
 }
 .brand-sec .brand-img img{
     cursor: pointer;
